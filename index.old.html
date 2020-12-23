@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hinode 14!</title>
+  </head>
+
+  <style>
+
+		body {
+				background-color: black;
+		}
+
+    #base {
+				width: 850px;
+				height: 1137px;
+				padding: 25px;
+				margin: 0 auto;
+				background-image: url("background.jpg");
+				background-repeat: no-repeat;}
+
+		.p0 {
+        color: #FFCC33;
+        font-weight: normal;
+				font-family: Arial;
+        font-size: 72px;
+				line-height: 10pt;}
+
+		.p1 {
+        color: #FFFFFF;
+        font-weight: normal;
+				font-family: Arial;
+        font-size: 48px;
+				line-height: 5pt;}
+
+		.p2 {
+        color: #FFCC33;
+        font-weight: normal;
+				font-family: Arial;
+        font-size: 32px;
+				line-height: 10pt;}
+
+		.bgrid {
+				display: grid;
+				width: 410px;
+				grid-gap: 10px;
+				grid-template-columns: repeat(2, 2fr);
+		}
+
+		#myBtn {
+        width: 200px;
+				height: 50px;
+        font-size: 16px;
+        padding: 0px;
+        border: none;
+        background: rgba(0, 0, 0, 0.25);
+        color: #FFFFFF;
+        cursor: pointer;
+      }
+
+    #myBtn:hover {
+        background: #ddd;
+        color: black;
+    }
+
+  </style>
+
+  <body>
+
+    <div id="base">
+			<p class="p0">Hinode 14 <br>
+			<p class="p1">Science Meeting <br>
+			<p class="p2">28 &ndash; 31 July 2020 <br>
+			<p class="p2">Washington DC <br>
+			<p class="p2">USA <br>
+			<p>
+				<div class="bgrid">
+					<button id="myBtn" onclick="window.open('https://arlington.gmu.edu/', '_blank');
+																			return false;">Meeting Venue</button>
+					<button id="myBtn" onclick="window.open('https://goo.gl/maps/LfMSFMVhGX4ezHcJ8', '_blank');
+																			return false;">Google Map</button>
+					<button id="myBtn" onclick="window.open('https://washington.org/', '_blank');
+																			return false;">Visitor Info</button>
+				</div>
+    </div>
+
+  </body>
+
+</html>

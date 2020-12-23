@@ -1,0 +1,2 @@
+convert -resize 62% hinode14iris11_poster.png hinode14iris11_poster.small.png
+convert hinode14iris11_poster.png hinode14iris11_poster.pdf
